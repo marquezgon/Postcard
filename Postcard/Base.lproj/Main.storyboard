@@ -103,6 +103,15 @@
                                     <rect key="frame" x="16" y="72" width="273" height="41"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ppj-OG-3hk">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="142" width="178" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -112,6 +121,7 @@
                                 <exclude reference="SGd-AJ-aUs"/>
                                 <exclude reference="Bm8-5O-vCd"/>
                                 <exclude reference="jkc-Af-X2R"/>
+                                <exclude reference="Ppj-OG-3hk"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -121,6 +131,7 @@
                                 <include reference="SGd-AJ-aUs"/>
                                 <include reference="Bm8-5O-vCd"/>
                                 <include reference="jkc-Af-X2R"/>
+                                <include reference="Ppj-OG-3hk"/>
                             </mask>
                         </variation>
                     </view>
@@ -129,6 +140,7 @@
                         <outlet property="enterNameTextField" destination="4os-2R-DP0" id="y9i-6X-50r"/>
                         <outlet property="mailButton" destination="Bm8-5O-vCd" id="hoT-mN-kCq"/>
                         <outlet property="messageLabel" destination="jkc-Af-X2R" id="zyC-F7-ZcI"/>
+                        <outlet property="nameLabel" destination="Ppj-OG-3hk" id="bRc-VC-Pug"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
